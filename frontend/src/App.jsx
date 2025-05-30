@@ -35,7 +35,6 @@ function App() {
     <Certefication2/>
    
     
-    
    
     </div>
   );

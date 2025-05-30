@@ -4,6 +4,7 @@ import ContinueButton1 from '../components/ContinueButton1'
 import Bbutton2 from '../components/Bbutton2'
 import JobCard from '../components/JobCard'
 import TopBar2 from '../components/TopBar2'
+import Footer from '../components/Footer'
 function Landing() {
   return (<>
    
@@ -72,7 +73,7 @@ function Landing() {
         </div>
       </div>
       <div className='part3'>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
 
     </>
