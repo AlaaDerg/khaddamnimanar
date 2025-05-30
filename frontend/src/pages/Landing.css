@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+  
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 10px;
+  }
+.texte1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  color: #525252;
+  padding: 10px;
+   
+}
+  .part1{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./Section.png);
+    padding: 130px 50px 50px 50px;
+  }
+.btns1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+}
+.tprt21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.crds > * {
+    display: inline-block;
+    margin-right: 16px;
+  }
+.crds{
+    margin: 20px;
+    gap: 15px;
+}
+
+
+.crds{
+  margin: 20px;
+  display: flex;
+  gap: 1rem;
+
+}
+
+.scroll {
+overflow-x: auto;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+display: none;
+}
+.part2{
+  background: #F5F5F5;
+}
+.prt22{
+  display: grid;
+  grid-template-rows: repeat(7,1fr);
+  grid-template-areas: "tprt22" "crds22" "crds22" "crds22" "crds22" "crds22" "crds22";
+  gap: 5px;
+}
+.tprt22{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+ font-weight: bold;
+  padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.crds222{
+  display: grid;
+  grid-area: crds22;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: "crd21 crd22";
+ align-items: center;
+  gap: 10px;
+}
+.LandingCardsContainer1 {
+  background: #fff;
+  display: grid;
+  grid-area: crd21;
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color: #D6D6D6;
+  width: 750px;
+  height:500px;
+  font-size: 22px;
+}
+  /* .LandingCardsContainer > *{
+  color : #
+  
+  } */
+.LandingCardsContainer1 > p{
+ width: 720px;
+ margin: 30px 0 30px 20px;
+}
+.CardTitle{
+  display: flex;
+ 
+  align-items: center;
+    color: #0C4498;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+.boldText{
+    font-weight: bold;
+}
+.lightText{
+    color: #525252;
+}
+.LandingCardsContainer2 {
+  background: #fff;
+  display: grid;
+  grid-area: crd22;
+ border: 1px solid ;
+ border-radius: 10px;
+ border-color: #D6D6D6;
+ width: 750px;
+ height:500px;
+ font-size: 22px;
+}
+
+.LandingCardsContainer2 > p{
+  width: 720px;
+  margin: 30px 0 30px 20px;
+}
+ .tprt23{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+   padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+     font-weight: bold;
+     padding: 10px;
+ }
+ .prt23{
+  display: grid;
+  grid-template-rows: repeat(7,1fr);
+  grid-template-areas: "tprt23" "crds23" "crds23" "crds23" "crds23" "crds23" "crds23";
+  gap: 5px;
+}
+.crds223{
+  display: grid;
+  grid-area: crds23;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: "crd23 crd24";
+ align-items: center;
+  gap: 10px;
+}  
+.LandingCardsContainer3{
+  background: #fff;
+  display: grid;
+  grid-area: crd23;
+ border: 1px solid ;
+ border-radius: 10px;
+ border-color: #D6D6D6;
+ width: 750px;
+ height:450px;
+ font-size: 22px;
+}
+    
+.LandingCardsContainer3 > p{
+  width: 720px;
+  margin: 30px 0 30px 20px;
+}
+.LandingCardsContainer4{
+  background: #fff;
+  display: grid;
+  grid-area: crd24;
+ border: 1px solid ;
+ border-radius: 10px;
+ border-color: #D6D6D6;
+ width: 750px;
+ height:450px;
+ font-size: 22px;
+}
+
+.LandingCardsContainer4 > p{
+  width: 720px;
+  margin: 30px 0 30px 20px;
+}
+.blueStar {
+  color: #0C4498;
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+.findpage{
+    height: 170vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-areas: "part1" "part2" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" "part3" ;
+    /* gap: 15px; */
+}
+.findpart1{
+    display: grid;
+    grid-area: part1;
+}
+.findpart2{
+    display: grid;
+    grid-area: part2;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "search linksf linksf";
+}
+.findsearch{
+    display: grid;
+    grid-area: search;
+    padding: 20px 10px;
+    border: none;
+    margin: 5px;
+}
+.findlinks{
+    display: grid;
+    grid-area: linksf;
+}
+.findpart3{
+    background: #F5F5F5;
+    display: grid;
+    grid-area: part3;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "searchjob  findcards findcards findcards findcards";
+    gap: 0;
+}
+.findcards{
+    margin: 15px 0px;
+    display: grid;
+    grid-area: findcards;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-areas: "cardf" "cardf" "cardf" "cardf" "cardf" "cardf" "cardf" "cardf" "cardf" "pagelist";
+}
+.cardf{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+      
+    grid-area: cardf;
+    gap: 5px;
+}.pagelist{
+    display: grid;
+    grid-area: pagelist;
+    padding: 20px;
+}
+.searchjob{
+    display: grid;
+    grid-area: searchjob;
+    margin: 0;
+}

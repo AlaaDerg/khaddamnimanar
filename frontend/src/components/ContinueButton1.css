@@ -1,0 +1,20 @@
+.continue-btn {
+    /* width: 390px; */
+   padding: 12px;
+     background-color: #003b99;
+     color: white;
+     font-size: 16px;
+     border: none;
+     height: 50px;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-top: 10px;
+     transition: all 0.7s ease;
+     display: flex;
+     justify-content: center;
+   }
+   
+   .continue-btn:hover {
+     opacity: 0.5;
+     transform: scale(1.1);
+   }

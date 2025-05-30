@@ -1,0 +1,123 @@
+.applicant-card {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 16px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-title {
+    flex: 1;
+    margin-left: 12px;
+  }
+  
+  .card-title h4 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .card-title p {
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .card-links {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #1447af;
+    cursor: pointer;
+  }
+  
+  .applied-date {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 16px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h4 {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+  .section p,
+  .section ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  .char-count {
+    font-size: 12px;
+    color: gray;
+    margin-top: 4px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .btn {
+    flex: 1;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #1447af;
+    cursor: pointer;
+  }
+  
+  .reject {
+    background: white;
+    color: #1447af;
+  }
+  
+  .accept {
+    background: #1447af;
+    color: white;
+  }

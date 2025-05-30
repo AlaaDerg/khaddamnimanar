@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.applicdescpage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "topemp2 part2empl2 part2empl2 part2empl2" ;
+    background: #F5F5F5;
+    gap: 0;
+    width: 100vw;
+    height: auto;
+}
+.topemp2{
+    display: grid;
+    grid-area: topemp2;
+}
+.part2empl2{
+ display: grid2;
+ grid-area: part2empl2;
+ grid-template-rows: repeat(10, auto);
+ grid-template-areas: "navempl2" "addoff2" "jobemp2" "aplicat2" "jobdet";
+  gap: 20px;
+}
+
+.navempl2{
+    display: grid;  
+    grid-area: navempl2;
+  margin: 0;
+  height: 70px;
+  margin: 10px;
+}
+.addoff2{
+    display: grid;
+    grid-area: addoff;
+    justify-content: end;
+    margin: 10px 30px 25px 0;
+    height: 50px;
+
+}
+.aplicat2{
+   
+    display: grid;
+    grid-area: aplicat2;
+    margin: 10px;
+  
+}
+.jobemp2{
+    display: grid;
+    grid-area: jobemp2;
+    height: 60px;
+    margin:  0 0 35px 0;
+}
+.jobdet{
+    display: grid;
+    grid-area: jobdet;
+}
+.btnadd2 {
+  margin: 0 ;
+  padding: 0 ;
+}

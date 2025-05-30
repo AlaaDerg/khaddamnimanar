@@ -1,0 +1,84 @@
+.educations-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    
+    margin: 0 auto;
+    font-family: sans-serif;
+    width: 75vw;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+  
+.educations-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.educations-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1d1f;
+    margin: 0;
+    text-align: left;
+}
+  
+.header-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+  
+.education-entry {
+    display: flex;
+    align-items: flex-start;
+}
+  
+.education-left {
+    display: flex;
+    align-items: flex-start;
+}
+  
+.estin-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.education-info {
+    text-align: left;
+}
+  
+.education-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #1d1d1f;
+}
+  
+.education-info .degree {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+  
+.education-info .years {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+  
+.education-info .description {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6;
+}

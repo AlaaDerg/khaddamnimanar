@@ -1,0 +1,94 @@
+.experiences-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width:75vw ;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .experiences-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .experiences-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1d1f;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .plus-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .experience-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .experience-left {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .experience-info {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .experience-info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #1d1d1f;
+  }
+  
+  .experience-info .company {
+    color: #1d1d1f;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .experience-info .location,
+  .experience-info .description {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+  }
+  
+  .editt-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .show-more {
+    color: #0066cc;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }

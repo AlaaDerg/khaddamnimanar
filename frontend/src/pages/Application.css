@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.applicpage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "topemp part2empl part2empl part2empl" ;
+    background: #F5F5F5;
+    gap: 0;
+    width: 100vw;
+    height: auto;
+}
+.topemp{
+    display: grid;
+    grid-area: topemp;
+}
+.part2empl{
+ display: grid;
+ grid-area: part2empl;
+ grid-template-rows: repeat(10, auto);
+ grid-template-areas: "navempl" "addoff" "jobemp" "aplicat" "tableoffer";
+  gap: 20px;
+}
+
+.navempl{
+    display: grid;  
+    grid-area: navempl;
+  margin: 0;
+  height: 70px;
+}
+.addoff{
+    display: grid;
+    grid-area: addoff;
+    justify-content: end;
+    margin: 0 260px 0 0;
+    height: 50px;
+
+}
+
+.jobemp{
+    display: grid;
+    grid-area: jobemp;
+    height: 60px;
+}
+.aplicat{
+   
+    display: grid;
+    grid-area: aplicat;
+    margin: 10px;
+  
+}
+.tableoffer{
+    display: grid;
+    grid-area: tableoffer;
+}
+.btnadd {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.application-side {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 20px;
+}

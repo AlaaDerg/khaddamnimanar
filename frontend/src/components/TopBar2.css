@@ -1,0 +1,60 @@
+.topbar2{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-areas: " logo2 logo2 links2 links2 links2 links2 links2 links2 btns btns";
+    box-shadow:  #062E6B 10px;
+    border: 1px  #062e6b2f solid;
+    border-radius: 30px;
+    padding: 0;
+    height: 80px;
+}
+.logo2{
+    display: grid;
+    grid-area: logo2;
+}
+.links2{
+    display: grid;
+    grid-area: links2;
+}
+.nav-links2 {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start; 
+  flex: 1;
+  padding-left: 40px;
+  }
+  
+  .nav-links2 a {
+  
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+
+.nav-links2 a:hover {
+    text-decoration: underline #003b99;
+  }.btns{
+    display: grid;
+    grid-area: btns;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "btn1 btn2";
+    justify-content: center;
+
+    gap: 10px;
+}
+.btn1{
+    display: grid;
+    grid-area: btn1;
+    /* margin:0 0 0 32px; */
+    justify-content: center;
+}.btn2{
+    display: grid;
+    grid-area: btn2;
+    justify-content: center;
+}
+a{
+    margin: 0 25px;
+}

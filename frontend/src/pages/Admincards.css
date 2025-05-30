@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adminpage1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "topadmin part2admin part2admin part2admin" ;
+    background: #F5F5F5;
+    gap: 0;
+    width: 100vw;
+    height: 140vh;
+}
+.topadmin{
+    display: grid;
+    grid-area: topadmin;
+    height: 140vh;
+}
+.part2admin {
+  display: grid;
+  grid-area: part2admin; 
+  grid-template-rows: repeat(15,1fr);
+  grid-template-areas: "adminnav" "filters" "tableuser" "tableuser" "tableuser" "tableuser"  "tableuser" "tableuser" "tableuser" "tableuser" "tableuser" "tableuser" "tableuser" ;
+  gap: 0px;
+  margin: 10px 25px ;
+}.filters {
+    display: grid;
+  grid-area: filters;
+     width: 72vw;
+     height: 60px;
+
+}
+.tableuser {
+    display: grid;
+  grid-area: tableuser;
+     width: 72vw;
+     height: 90vh;
+
+}
+.adminnav {
+    display: grid;
+  grid-area: adminnav;
+  justify-content: baseline;
+  align-items: baseline;
+     width: 72vw;
+     margin: 0;
+
+}

@@ -1,0 +1,39 @@
+.cv-container {
+    height: 25vh;
+    border-radius: 8px;
+    padding: 10px;
+    width: 75vw;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+  
+  .cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .cv-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .plus-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .cv-box {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 95%;
+    justify-content: center;
+  }
+  

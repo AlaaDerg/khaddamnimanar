@@ -1,0 +1,150 @@
+.job-container {
+    font-family: Arial, sans-serif;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 15px;
+    border-radius: 6px;
+    width: 72vw;
+  }
+  
+  .job-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .job-title {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .edit-btn {
+    border: 1px solid #0066cc;
+    background: transparent;
+    color: #0066cc;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    width: 20px;
+    margin-right: 6px;
+    filter: hue-rotate(180deg);
+  }
+  
+  .divider {
+    margin: 16px 0;
+    border-color: #eee;
+  }
+  
+  .job-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .description-section {
+    flex: 2;
+  }
+  
+  .description-section h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .description-section p {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+  }
+  
+  .skills-list li {
+    background: #f2f6ff;
+    border: 1px solid #dbeafe;
+    color: #2563eb;
+    border-radius: 16px;
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    margin: 6px 6px 0 0;
+    font-size: 14px;
+  }
+  
+  .skills-list img {
+    width: 14px;
+    margin-right: 6px;
+  }
+  
+  .role-info {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  .role-info h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .capacity {
+    margin-bottom: 16px;
+  }
+  
+  .capacity p {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .post-date {
+    font-size: 13px;
+    color: #666;
+    margin: 12px 0;
+  }
+  
+  .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .job-type {
+    background: #f0f8ff;
+    border: 1px solid #cce4ff;
+    color: #2563eb;
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: default;
+  }
+  
+  .salary {
+    font-weight: bold;
+    margin-top: 4px;
+  }

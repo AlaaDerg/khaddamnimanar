@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+  
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .title3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .parts21{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./heqder3.png);
+    padding: 130px 50px 50px 50px;
+  }
+  .offers{
+  
+    color: #0C4498;
+    font-weight: bold;
+    margin: 5px;
+
+  }
+  
+  .bold {
+ 
+    font-weight: bold;
+  }
+  
+  
+
+.tiprt22{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 25px;
+}
+.parts22{
+  background: #F5F5F5;
+}
+.scroll-container > * {
+    display: inline-block;
+    margin-right: 16px;
+  }
+.scroll-container{
+    margin: 20px;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.scroll {
+  overflow-x: auto;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+

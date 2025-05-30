@@ -1,0 +1,98 @@
+.filter-container {
+    margin: 15px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .filter-title {
+    color: #1976d2;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .reset-button {
+    background: none;
+    border: none;
+    color: #d32f2f;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .section-title {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+  }
+  
+  .section-group {
+    margin-bottom: 24px;
+  }
+  
+  .section-spacer {
+    height: 24px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 6px 0;
+  }
+  
+  .filter-option input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    accent-color: #1976d2;
+  }
+  
+  .category-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+  .category-placeholder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 4px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .dropdown-arrow {
+    color: #666;
+    font-size: 0.7rem;
+    margin-left: 12px;
+  }
+  
+  .category-options {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 3px;
+    background-color: #fff;
+  }
+  .category-selector{
+    width: 300px;
+  }

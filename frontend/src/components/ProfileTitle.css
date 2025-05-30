@@ -1,0 +1,15 @@
+.profile-title {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding:15px 1380px 10px 30px ;
+    width: fit-content;
+    font-family: sans-serif;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}

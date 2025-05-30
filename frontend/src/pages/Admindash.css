@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adminpage2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "topadmin2 part2admin2 part2admin2 part2admin2" ;
+    background: #F5F5F5;
+    gap: 0;
+    width: 100vw;
+    height: 140vh;
+}
+.topadmin2{
+    display: grid;
+    grid-area: topadmin2;
+    height: 100vh;
+}
+.part2admin2 {
+  display: grid;
+  grid-area: part2admin2; 
+  grid-template-rows: repeat(10,1fr);
+  grid-template-areas: "adminnav2" "titledash" "cardsdash" "cardsdash" "cardsdash" "dashimg"  "dashimg" "dashimg" "dashimg" "dashimg"  ;
+  gap: 0px;
+  margin: 10px 25px ;
+  height: 100vh;
+}
+.cardsdash1{
+    display: grid;
+    grid-area: cardsdash;
+}
+.titledash1{
+    display: grid;
+    grid-area: titledash;
+}
+.dashimg1{
+    display: grid;
+    grid-area: dashimg;
+}
+.adminnav2 {
+    display: grid;
+  grid-area: adminnav2;
+  justify-content: baseline;
+  align-items: baseline;
+     width: 72vw;
+     margin: 0;
+
+}

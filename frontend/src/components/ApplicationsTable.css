@@ -1,0 +1,121 @@
+.table-container {
+    padding: 1rem;
+    overflow-x: auto;
+  }
+  
+  .applications-table {
+    width: 72vw;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .student-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .student-name {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .status {
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid;
+    display: inline-block;
+  }
+  
+  .status.pending {
+    color: #d97706;
+    background-color: #fef3c7;
+    border-color: #fcd34d;
+  }
+  
+  .status.approved {
+    color: #2563eb;
+    background-color: #dbeafe;
+    border-color: #93c5fd;
+  }
+  
+  .status.hired {
+    color: #15803d;
+    background-color: #dcfce7;
+    border-color: #86efac;
+  }
+  
+  .status.rejected {
+    color: #dc2626;
+    background-color: #fee2e2;
+    border-color: #fca5a5;
+  }
+  
+  .match-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .match-text {
+    color: #1d4ed8;
+    font-weight: 500;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circular-chart {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #e5e7eb;
+    stroke-width: 3;
+  }
+  
+  .circle-progress {
+    fill: none;
+    stroke: #1d4ed8;
+    stroke-width: 3;
+    stroke-linecap: round;
+  }
+  
+  .see-btn {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #3b82f6;
+    color: #2563eb;
+    background-color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .see-btn:hover {
+    background-color: #eff6ff;
+  }
+
